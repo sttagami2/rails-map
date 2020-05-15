@@ -1,0 +1,236 @@
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+rake aborted!
+Don't know how to build task 'rails' (see --tasks)
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+bundler: not executable: bin/rails
+rake aborted!
+Don't know how to build task 'rake' (see --tasks)
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+bundler: not executable: bin/rails
+rake aborted!
+Don't know how to build task 'rails' (see --tasks)
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+bundler: not executable: bin/rails
+rake aborted!
+NameError: uninitialized constant Tasks
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:1:in `<top (required)>'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/Rakefile:6:in `<top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+bundler: not executable: bin/rails
+"asdf"
+rake aborted!
+Don't know how to build task 'mail:sample' (see --tasks)
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+Don't know how to build task 'mail:sample' (see --tasks)
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+NameError: undefined local variable or method `user' for #<DailyMailer:0x00007fcac2659750>
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:3:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+"asfd"
+#<ActiveRecord::Relation [#<User id: 1, email: "ttt@ttt", name: "ttt", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 17:19:23", updated_at: "2019-12-18 17:19:23">, #<User id: 2, email: "ddd@ddd", name: "ddd", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 17:19:34", updated_at: "2019-12-18 17:19:34">, #<User id: 3, email: "aaa@aaa", name: "aaa", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 17:55:09", updated_at: "2019-12-18 17:55:52">, #<User id: 4, email: "bbb@bbb", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 17:55:19", updated_at: "2019-12-18 18:01:16">]>
+#<ActiveRecord::Relation []>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">]>
+rake aborted!
+ActionView::MissingTemplate: Missing template daily_mailer/send_mail with "mailer". Searched in:
+  * "daily_mailer"
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:6:in `block in send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+rake aborted!
+ActionView::MissingTemplate: Missing template daily_mailer/send_mail with "mailer". Searched in:
+  * "daily_mailer"
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:6:in `block in send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+#<ActiveRecord::Relation [#<User id: 1, email: "sekiguchi.shota.infratop@gmail.com", name: "asdf", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:01:29", updated_at: "2019-12-18 19:01:29">, #<User id: 2, email: "shota.s@infratop.jp", name: "bbb", introduction: nil, profile_image_id: nil, created_at: "2019-12-18 19:02:58", updated_at: "2019-12-18 19:02:58">]>
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of String into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `[]'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+["sekiguchi.shota.infratop@gmail.com", "seshorb1120@icloud.com", "shota.s@infratop.jp"]
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5:in `send_mail'
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+Net::SMTPFatalError: 555 5.5.2 Syntax error. g7sm4470909pfq.33 - gsmtp
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5: syntax error, unexpected tLABEL
+      mail (cc: user.email, subject:"ご連...
+            ^~~
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5: syntax error, unexpected tLABEL, expecting '='
+... mail (cc: user.email, subject:"ご連絡")
+...                       ^~~~~~~~
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:5: syntax error, unexpected ')', expecting keyword_end
+...ser.email, subject:"ご連絡")
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected tLABEL
+    mail (cc: User.pluck(:email), subject:...
+          ^~~
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ',', expecting keyword_end
+...  mail (cc: User.pluck(:email), subject:"ご連絡")
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ')', expecting keyword_end
+...k(:email), subject:"ご連絡")
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected tLABEL
+    mail (to: User.pluck(:email), subject:...
+          ^~~
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ',', expecting keyword_end
+...  mail (to: User.pluck(:email), subject:"ご連絡", :cc)
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ',', expecting keyword_end
+...k(:email), subject:"ご連絡", :cc)
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected tLABEL
+    mail (bcc: User.pluck(:email), subject:...
+          ^~~~
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ',', expecting keyword_end
+... mail (bcc: User.pluck(:email), subject:"ご連絡")
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/app/mailers/daily_mailer.rb:4: syntax error, unexpected ')', expecting keyword_end
+...k(:email), subject:"ご連絡")
+...                              ^
+/Users/shotasekiguchi/Rails/infratop/Bookers2/lib/tasks/mail.rake:4:in `block (2 levels) in <top (required)>'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `load'
+/Users/shotasekiguchi/.rbenv/versions/2.5.5/bin/bundle:23:in `<main>'
+Tasks: TOP => mail:sample
+(See full trace by running task with --trace)

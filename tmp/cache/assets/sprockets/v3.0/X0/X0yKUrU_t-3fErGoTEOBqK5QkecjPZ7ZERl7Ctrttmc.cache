@@ -1,0 +1,12 @@
+I"(function() {
+  App.chat = App.cable.subscriptions.create("ChatChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {},
+    post: function() {
+      return this.perform('post');
+    }
+  });
+
+}).call(this);
+:ET
